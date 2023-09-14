@@ -58,14 +58,15 @@ print("BMI RESULT: >",bmi_result)
 
 a = 18.5
 c = 25.0
+bmi_stat = "BMI STATUS:"
 
 if bmi_result <= 18.4:
-    print("Underweight")
+    print(bmi_stat,"> Underweight")
 elif bmi_result >= 40.0:
-    print("Obese")
+    print(bmi_stat,"> Obese")
 elif a <= bmi_result <= 24.9:
-    print("Normal")
+    print(bmi_stat,"> Normal")
 elif bmi_result >= c <= 39.9:
-    print("Overweight")
+    print(bmi_stat,"> Overweight")
 else:
     print("Error!")
